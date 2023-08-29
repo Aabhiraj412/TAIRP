@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.bd{
+    /* background: linear-gradient(45deg,rgba(53, 91, 7, 0.796), rgb(238, 247, 57) ); */
+    width: 100%;
+    /* height: 100vh; */
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.icon img{
+    width: 100px;
+}
+.nav{
+    box-shadow: 0px 3px 15px rgba(36, 42, 6, 0.9);
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+}
+.nav ul li{
+    padding: 20px;
+    list-style: none;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav ul li a:hover{
+    color: rgb(59, 80, 6);
+}
+.border{
+    width: 100%;
+    box-shadow: 0px 3px 15px rgba(36, 43, 1, 0.9);
+    margin-bottom: 20px;
+    /* margin: 20px 20px; */
+    /* padding: 2px; */
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+.left{
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.left2{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.left2 li{
+    padding: 2px;
+}
+.left p{
+    font-size: 20PX;
+    padding: 20px;
+}
+.right{
+    padding: 20px;
+    width: 40%;;
+}
+.right2{
+    padding: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+.right2 li{
+    padding: 2px;
+}
+.right img{
+    width: 100%;
+    border: 2px solid rgba(225, 225, 0, 0.9);
+    box-shadow: 0px 3px 15px rgba(22, 29, 0, 0.9);
+    border-radius: 40px;
+}
+.recpie{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.boxes{
+    margin: 20px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes a{
+    width: 40%;
+    text-decoration: none;
+    color: black;
+}
+.box{
+    padding: 20px;
+    /* width: 40%; */
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(23, 28, 1, 0.9);
+}
+.box h1{
+    padding: 20px;
+}
+.box:hover{
+    box-shadow: 0px 3px 15px rgba(152, 184, 8, 0.9); 
+    background-color: rgba(184, 190, 9, 0.165);
+    transform: translateY(-20px);
+    transition-duration: 1s;
+}
+.box img{
+    width: 80%;
+    height: 300px;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+.more{
+    /* border: 2px solid rgba(39, 60, 7, 0.613); */
+    /* box-shadow: 0px 3px 15px rgba(35, 42, 1, 0.9); */
+    padding: 10px;
+}
+.more button{
+    padding: 10px;
+    
+    color: white;
+    /* text-decoration: none; */
+    font-size: 20px;
+    background-color: rgb(147, 164, 15);
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(36, 43, 1, 0.9) ;
+}
+.more button:hover{
+    background-color: rgb(203, 226, 26);
+    color: black;
+    box-shadow: 0px 3px 15px rgba(255, 255,0,.9);
+}
+.about{
+    text-align: center;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+}
+.input{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    box-shadow: 0px 3px 15px rgba(36, 43, 1, 0.9) ;
+}
+.input button{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(147, 164, 15);
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(36, 43, 1, 0.9) ;
+
+}
+.input button:hover{
+    background-color: rgb(203, 226, 26);
+    color: black;
+    box-shadow: 0px 3px 15px rgba(255, 255,0,.9);
+}
+.footer{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    text-align: center;
+}
+.inst{
+    padding: 20px;
+    font-size: 20px;
+}
+.inst li{
+    padding: 2px;
+    list-style: lower-roman;
+}
+h3{
+    padding: 20px;
+}
